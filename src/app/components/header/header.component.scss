@@ -4,18 +4,8 @@
     align-items: center;
     padding: 20px 70px;
     margin-bottom: 20px;
-  }
-  
-  .app-header nav a {
-    color: #475569;
-    margin: 0 10px;
-    font-size: 18px;
-    transition: color 0.3s ease;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-  }
-  
-  .app-header nav a:hover {
-    color: #008000;
-  }
-  
+}
+
+img {
+    cursor: pointer;
+}
