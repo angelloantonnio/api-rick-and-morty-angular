@@ -1,12 +1,26 @@
-<ul >
+<ul>
     @for (character of characters; track character.id) {
-    <div>
-        <li class="title">
-            {{ character.name }}
-        </li>
-        <li class="img">
-            <img src="{{ character.image }}" />
-        </li>
+    <div class="character-card">
+        <div class="title">
+            <img src="{{ character.image }}" class="character-image" />
+            <h3>
+                {{ character.name }}
+            </h3>
+            <div class="line"></div>
+            <p>
+                <strong>Espécie:</strong> {{ character.species }}
+            </p>
+            <p>
+                <strong>Gênero:</strong> {{ character.gender }}
+            </p>
+            <p>
+                <strong>Status:</strong> {{ character.status }}
+            </p>
+            <p>
+                <strong>Origem:</strong> {{ character.origin.name }}
+            </p>
+        </div>
+
     </div>
     }
 </ul>
