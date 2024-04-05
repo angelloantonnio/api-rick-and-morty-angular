@@ -1,0 +1,28 @@
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "Roboto", sans-serif;
+
+    padding: 0 70px;
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        color: #475569;
+    }
+    
+    h1 {
+        font-size: 62px;
+        font-weight: 90;
+        color: #003300;
+    }
+}
+
+
+@media (min-width: 1080px) {
+    .main-section {
+        flex-direction: row;
+    }
+}
