@@ -1,0 +1,20 @@
+.episode-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 70px;
+    list-style: none;
+  }
+  
+  .episode-item {
+    border: 1px solid #475569;
+    width: calc(50% - 12px);
+    margin-bottom: 12px;
+  }
+  
+  .episode, .title {
+    text-align: center;
+    margin: 6px;
+    font-family: "Roboto", sans-serif;
+  }
+  

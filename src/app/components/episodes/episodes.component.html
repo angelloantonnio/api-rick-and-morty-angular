@@ -1,0 +1,12 @@
+<ul class="episode-list">
+    @for (episode of episodes; track episode.id) {
+    <li class="episode-item">
+        <div class="episode">
+            {{ episode.episode }}
+        </div>
+        <div class="title">
+            {{ episode.name }}
+        </div>
+    </li>
+    }
+</ul>
